@@ -1,0 +1,20 @@
+Here the source code is given for the implementation of a Distributed Event Coordination System:
+
+The server folder has server code and log file generated.
+The client folder has the client code. 
+
+Here makefile is used to compile the code.
+
+To run the server,
+type: make
+type:./server -h -p (port number)  -l (log file name)
+example:
+./server -h -p 9091 -l sow.txt
+
+
+To run the client,
+type: make
+type:./client -h -s (IP address) -p (port number) 
+example:
+./client -h -s 127.0.0.1 -p 9091
+
